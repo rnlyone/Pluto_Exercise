@@ -44,7 +44,7 @@ def lemmatizator_from_file(txt_file):
     nouns = extract_nouns(txt_file)
     return lemmatizator(nouns)
 
-def toSentence(list_words): # Convert list of words into sentence
+def toSentence(list_words):
     sentence = ' '.join(word for word in list_words)
     return sentence
 
@@ -65,4 +65,4 @@ if __name__ == "__main__":
     
     # print(lemmatizator(nouns))
     
-    print(ngrammer(txt_target, 3))
+    # print(ngrammer(txt_target, 3))
